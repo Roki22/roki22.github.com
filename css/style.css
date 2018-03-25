@@ -1,0 +1,100 @@
+body{
+	font-family: Arial;
+	background: linear-gradient(#f0efee,transparent 1px),
+	linear-gradient(90deg, #f0efee, transparent 1px),
+	#fdfcfd;
+	background-size: 9px 9px;
+}
+.polosa{
+	height: 75px;
+	background:#fefefe;
+	border-bottom:1px solid #dedddc;
+	box-shadow: 0 -2px 4px #dedddc;
+	margin-top:105px;
+}
+header{
+	width: 980px;
+	margin:0 auto;
+}
+.logo{
+	display: inline-block;
+	width:103px;
+	height: 103px;
+	border-radius: 50%;
+	background: linear-gradient(#c82618,transparent 1px),
+	linear-gradient(90deg, #c82618, transparent 1px),
+	#d42819;
+	background-size: 7px 7px;
+	text-decoration: none;
+	text-align: center;
+	color:#fff;
+	font-size:54px;
+	font-family: Niagara solid;
+	line-height: 93px;
+	margin-top: -22px;
+	border:10px solid rgba(210,210,210,0.4);
+	background-clip: padding-box;
+}
+nav{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 28px;
+	margin-left: 60px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 38px;
+}
+nav a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color: #8b8c8c;
+	font-size: 18px;
+}
+nav a:hover{
+	border-bottom: 1px solid #d42819;
+}
+
+.socials{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 24px;
+}
+.socials a{
+	display:inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #cfcecd;
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	line-height: 25px;
+}
+.facebook:hover{
+	background: #3d599b;
+}
+.twitter:hover{
+	background:#00aced;
+}
+.dribble:hover{
+	background: #ea4c89	;
+}
+.behance:hover{
+	background: #1769ff;
+}
+.google:hover{
+	background:#dd4b39 	;
+}
+.rss:hover{
+	background: #f26522;
+}
+
+
+
